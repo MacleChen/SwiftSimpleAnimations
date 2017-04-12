@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39AE3D831E9B268F00A46CBD /* PlaneSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE3D821E9B268F00A46CBD /* PlaneSportViewController.swift */; };
 		39B1065E1E9732AC0000DC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1065D1E9732AC0000DC3F /* AppDelegate.swift */; };
 		39B106611E9732AC0000DC3F /* SwiftSimpleAnimations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39B1065F1E9732AC0000DC3F /* SwiftSimpleAnimations.xcdatamodeld */; };
-		39B106631E9732AC0000DC3F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106621E9732AC0000DC3F /* MasterViewController.swift */; };
-		39B106651E9732AC0000DC3F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106641E9732AC0000DC3F /* DetailViewController.swift */; };
 		39B106681E9732AC0000DC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B106661E9732AC0000DC3F /* Main.storyboard */; };
 		39B1066A1E9732AC0000DC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B106691E9732AC0000DC3F /* Assets.xcassets */; };
 		39B1066D1E9732AC0000DC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B1066B1E9732AC0000DC3F /* LaunchScreen.storyboard */; };
 		39B106781E9732AD0000DC3F /* SwiftSimpleAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106771E9732AD0000DC3F /* SwiftSimpleAnimationsTests.swift */; };
 		39B106831E9732AD0000DC3F /* SwiftSimpleAnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106821E9732AD0000DC3F /* SwiftSimpleAnimationsUITests.swift */; };
+		39B106911E9739200000DC3F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106901E9739200000DC3F /* HomeTableViewController.swift */; };
+		39B106DD1E977E9D0000DC3F /* ButtonMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106DC1E977E9D0000DC3F /* ButtonMoveViewController.swift */; };
+		39B106E01E9790B80000DC3F /* TurnAroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106DF1E9790B80000DC3F /* TurnAroundViewController.swift */; };
+		39D065C11E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D065C01E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift */; };
+		39D065C31E9E1BEC00CCCD13 /* BlackHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D065C21E9E1BEC00CCCD13 /* BlackHoleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39AE3D821E9B268F00A46CBD /* PlaneSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneSportViewController.swift; sourceTree = "<group>"; };
 		39B1065A1E9732AC0000DC3F /* SwiftSimpleAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSimpleAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B1065D1E9732AC0000DC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39B106601E9732AC0000DC3F /* SwiftSimpleAnimations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftSimpleAnimations.xcdatamodel; sourceTree = "<group>"; };
-		39B106621E9732AC0000DC3F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		39B106641E9732AC0000DC3F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		39B106671E9732AC0000DC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39B106691E9732AC0000DC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39B1066C1E9732AC0000DC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		39B1067E1E9732AD0000DC3F /* SwiftSimpleAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSimpleAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B106821E9732AD0000DC3F /* SwiftSimpleAnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSimpleAnimationsUITests.swift; sourceTree = "<group>"; };
 		39B106841E9732AD0000DC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B106901E9739200000DC3F /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		39B106DC1E977E9D0000DC3F /* ButtonMoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMoveViewController.swift; sourceTree = "<group>"; };
+		39B106DF1E9790B80000DC3F /* TurnAroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnAroundViewController.swift; sourceTree = "<group>"; };
+		39D065C01E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameAnimiationViewController.swift; sourceTree = "<group>"; };
+		39D065C21E9E1BEC00CCCD13 /* BlackHoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackHoleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39AE3D811E9B265000A46CBD /* PlaneSport */ = {
+			isa = PBXGroup;
+			children = (
+				39AE3D821E9B268F00A46CBD /* PlaneSportViewController.swift */,
+			);
+			name = PlaneSport;
+			sourceTree = "<group>";
+		};
 		39B106511E9732AC0000DC3F = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +117,12 @@
 		39B1065C1E9732AC0000DC3F /* SwiftSimpleAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				39B106DB1E977E810000DC3F /* buttonMove */,
+				39B106DE1E97907A0000DC3F /* TurnAround */,
+				39AE3D811E9B265000A46CBD /* PlaneSport */,
+				39D065BF1E9E0B2D00CCCD13 /* FrameAnimiation */,
 				39B1065D1E9732AC0000DC3F /* AppDelegate.swift */,
-				39B106621E9732AC0000DC3F /* MasterViewController.swift */,
-				39B106641E9732AC0000DC3F /* DetailViewController.swift */,
+				39B106901E9739200000DC3F /* HomeTableViewController.swift */,
 				39B106661E9732AC0000DC3F /* Main.storyboard */,
 				39B106691E9732AC0000DC3F /* Assets.xcassets */,
 				39B1066B1E9732AC0000DC3F /* LaunchScreen.storyboard */,
@@ -129,6 +148,31 @@
 				39B106841E9732AD0000DC3F /* Info.plist */,
 			);
 			path = SwiftSimpleAnimationsUITests;
+			sourceTree = "<group>";
+		};
+		39B106DB1E977E810000DC3F /* buttonMove */ = {
+			isa = PBXGroup;
+			children = (
+				39B106DC1E977E9D0000DC3F /* ButtonMoveViewController.swift */,
+			);
+			name = buttonMove;
+			sourceTree = "<group>";
+		};
+		39B106DE1E97907A0000DC3F /* TurnAround */ = {
+			isa = PBXGroup;
+			children = (
+				39B106DF1E9790B80000DC3F /* TurnAroundViewController.swift */,
+			);
+			name = TurnAround;
+			sourceTree = "<group>";
+		};
+		39D065BF1E9E0B2D00CCCD13 /* FrameAnimiation */ = {
+			isa = PBXGroup;
+			children = (
+				39D065C01E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift */,
+				39D065C21E9E1BEC00CCCD13 /* BlackHoleView.swift */,
+			);
+			name = FrameAnimiation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,10 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B106911E9739200000DC3F /* HomeTableViewController.swift in Sources */,
+				39B106E01E9790B80000DC3F /* TurnAroundViewController.swift in Sources */,
+				39AE3D831E9B268F00A46CBD /* PlaneSportViewController.swift in Sources */,
+				39D065C11E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift in Sources */,
 				39B106611E9732AC0000DC3F /* SwiftSimpleAnimations.xcdatamodeld in Sources */,
 				39B1065E1E9732AC0000DC3F /* AppDelegate.swift in Sources */,
-				39B106631E9732AC0000DC3F /* MasterViewController.swift in Sources */,
-				39B106651E9732AC0000DC3F /* DetailViewController.swift in Sources */,
+				39D065C31E9E1BEC00CCCD13 /* BlackHoleView.swift in Sources */,
+				39B106DD1E977E9D0000DC3F /* ButtonMoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +568,7 @@
 				39B106891E9732AD0000DC3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39B1068A1E9732AD0000DC3F /* Build configuration list for PBXNativeTarget "SwiftSimpleAnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +577,7 @@
 				39B1068C1E9732AD0000DC3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39B1068D1E9732AD0000DC3F /* Build configuration list for PBXNativeTarget "SwiftSimpleAnimationsUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +586,7 @@
 				39B1068F1E9732AD0000DC3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
