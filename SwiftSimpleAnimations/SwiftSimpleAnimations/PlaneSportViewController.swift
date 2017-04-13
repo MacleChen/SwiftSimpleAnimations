@@ -65,14 +65,18 @@ class PlaneSportViewController: UIViewController {
     }
     
     
-    @IBAction func animationBtn1Click(_ sender: UIButton) {
+    @IBAction func animationBtnAllClick(_ sender: UIButton) {
         
-        UIView.animateKeyframes(withDuration: 2, delay: 0, options: .calculationModeCubic, animations: { 
-            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1/2, animations: { 
+        self.animationBtn5Click(sender: sender)
+    }
+    
+    @objc func animationBtn1Click(sender: UIButton) {
+        UIView.animateKeyframes(withDuration: 2, delay: 0, options: .calculationModeCubic, animations: {
+            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1/2, animations: {
                 self.planeImageView.frame = CGRect(x: 300, y: 100, width: 66, height: 15)
             })
             
-            UIView.addKeyframe(withRelativeStartTime: 1/2, relativeDuration: 1/2, animations: { 
+            UIView.addKeyframe(withRelativeStartTime: 1/2, relativeDuration: 1/2, animations: {
                 self.planeImageView.frame = CGRect(x: 280, y: 270, width: 100, height: 30)
             })
             
@@ -82,7 +86,7 @@ class PlaneSportViewController: UIViewController {
         }
     }
     
-    @IBAction func animationBtn2Click(_ sender: UIButton) {
+    @objc func animationBtn2Click(_ sender: UIButton) {
         UIView.animateKeyframes(withDuration: 2, delay: 0, options: .calculationModeLinear, animations: {
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1/2, animations: {
                 self.planeImageView.frame = CGRect(x: 300, y: 100, width: 66, height: 15)
@@ -98,7 +102,7 @@ class PlaneSportViewController: UIViewController {
         }
     }
     
-    @IBAction func animationBtn3Click(_ sender: UIButton) {
+    @objc func animationBtn3Click(_ sender: UIButton) {
         UIView.animateKeyframes(withDuration: 2, delay: 0, options: .calculationModeDiscrete, animations: {
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1/2, animations: {
                 self.planeImageView.frame = CGRect(x: 300, y: 100, width: 66, height: 15)
@@ -114,7 +118,7 @@ class PlaneSportViewController: UIViewController {
         }
     }
     
-    @IBAction func animationBtn4Click(_ sender: UIButton) {
+    @objc func animationBtn4Click(_ sender: UIButton) {
         UIView.animateKeyframes(withDuration: 2, delay: 0, options: .calculationModePaced, animations: {
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1/2, animations: {
                 self.planeImageView.frame = CGRect(x: 300, y: 100, width: 66, height: 15)
@@ -128,6 +132,30 @@ class PlaneSportViewController: UIViewController {
             print("done")
             self.planeImageView.frame = CGRect(x: 20, y: 110, width: 66, height: 15)
         }
+    }
+    
+    
+    
+    /****************    CAKeyFrameAnimation   *****************/
+    
+    // MARK: 增加弧线飞行动画
+    @objc func animationBtn5Click(sender: UIButton) {
+//        let planePositionX:CGFloat = self.planeImageView.frame.origin.x + self.planeImageView.frame.size.width/2
+//        let planePositionY:CGFloat = self.planeImageView.frame.origin.y + self.planeImageView.frame.size.height/2
+        
+        let path = CGMutablePath()
+        path.move(to: CGPoint(x: self.planeImageView.frame.origin.x, y: self.planeImageView.frame.origin.y))
+        path.addLine(to: CGPoint(x: 150, y: self.planeImageView.frame.origin.y))
+        path.addArc(center: CGPoint(x: 150, y: 270), radius: 160, startAngle: CGFloat(M_PI_2)*3, endAngle: 0, clockwise: false)
+        
+        let animation = CAKeyframeAnimation()
+        animation.keyPath = "position"
+        animation.path = path
+        animation.duration = 0.5
+        animation.fillMode = kCAFillModeForwards
+        animation.isRemovedOnCompletion = false
+        
+        self.planeImageView.layer.add(animation, forKey: nil)
     }
     
 

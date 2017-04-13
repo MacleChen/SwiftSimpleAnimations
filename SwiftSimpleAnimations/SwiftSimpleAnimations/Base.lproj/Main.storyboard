@@ -38,6 +38,7 @@
                         <segue destination="qgO-iL-7xi" kind="show" identifier="TurnAroundView" id="TXp-PW-le0"/>
                         <segue destination="1Zt-JX-YfM" kind="show" identifier="PlaneSportView" id="mPI-jy-1L1"/>
                         <segue destination="h0b-bQ-4ny" kind="push" identifier="FrameAnimiation" id="bSn-DT-fwU"/>
+                        <segue destination="b4g-rf-fGA" kind="push" identifier="GhostFireAnimation" id="Ml7-pH-sf6"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gm3-4v-dly" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -152,35 +153,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9G2-jp-SDc">
-                                <rect key="frame" x="54" y="394" width="46" height="30"/>
+                                <rect key="frame" x="143" y="374" width="88" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="动画一"/>
+                                <state key="normal" title="动画"/>
                                 <connections>
-                                    <action selector="animationBtn1Click:" destination="1Zt-JX-YfM" eventType="touchUpInside" id="ytK-U3-HSj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZR-JA-FSB">
-                                <rect key="frame" x="202" y="394" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="动画三"/>
-                                <connections>
-                                    <action selector="animationBtn3Click:" destination="1Zt-JX-YfM" eventType="touchUpInside" id="fVq-jY-PbK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="df6-bC-qFP">
-                                <rect key="frame" x="120" y="394" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="动画二"/>
-                                <connections>
-                                    <action selector="animationBtn2Click:" destination="1Zt-JX-YfM" eventType="touchUpInside" id="Zsn-NG-N3v"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgg-Av-caU">
-                                <rect key="frame" x="274" y="394" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="动画四"/>
-                                <connections>
-                                    <action selector="animationBtn4Click:" destination="1Zt-JX-YfM" eventType="touchUpInside" id="e6q-1h-uVg"/>
+                                    <action selector="animationBtnAllClick:" destination="1Zt-JX-YfM" eventType="touchUpInside" id="79r-I3-myr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -245,6 +222,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e7Y-8M-l11" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3372" y="-407.0464767616192"/>
+        </scene>
+        <!--鬼火效果-->
+        <scene sceneID="Fbh-IW-50S">
+            <objects>
+                <viewController id="b4g-rf-fGA" customClass="GhostFireAnimationViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MQY-yA-esO"/>
+                        <viewControllerLayoutGuide type="bottom" id="E5G-WP-irR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="osi-fh-awo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="鬼火效果" id="bxj-lt-mRP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MWa-25-Kxg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4098" y="-407"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IBM-EB-7CC">
