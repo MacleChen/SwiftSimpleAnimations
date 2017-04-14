@@ -56,6 +56,15 @@ class GhostFireAnimationViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        
+        self.nenoLightAniationEffect()
+//        self.ghostAnimationEffect()
+        
+    }
+    
+    
+    // MARK: ghost animation
+    func ghostAnimationEffect() {
         // emitterCell
         let emitterCell = CAEmitterCell()
         
@@ -82,12 +91,47 @@ class GhostFireAnimationViewController: UIViewController {
         emitterLayer.emitterCells = [emitterCell]
         
         self.view.layer.addSublayer(emitterLayer)
-//        
-//        emitterLayer.setValue(500, forKey: "emitterCells.fire.birthRate")  // 生成速度
-//        emitterLayer.setValue(1, forKey: "emitterCells.fire.lifetime")
-        
-        
+        //
+        //        emitterLayer.setValue(500, forKey: "emitterCells.fire.birthRate")  // 生成速度
+        //        emitterLayer.setValue(1, forKey: "emitterCells.fire.lifetime")
     }
+    
+    
+    
+    // MARK: nenolight  animation
+    func nenoLightAniationEffect() {
+        let emitterCell = CAEmitterCell()
+        
+        emitterCell.name = "nenolight"
+        emitterCell.emissionLongitude = CGFloat(M_PI*2)
+        emitterCell.velocity = 50           // 粒子速度
+        emitterCell.velocityRange = 50      // 粒子速度范围
+        emitterCell.scale = 0.1
+        emitterCell.scaleSpeed = -0.2
+        emitterCell.redSpeed = -0.2
+        emitterCell.greenSpeed = -0.2
+        emitterCell.blueSpeed = 0.1
+        emitterCell.alphaSpeed = -0.2
+        emitterCell.birthRate = 100
+        emitterCell.lifetime = 4
+        emitterCell.color = UIColor.white.cgColor
+        emitterCell.contents = UIImage.init(named: "005")?.cgImage
+        
+        // emitterLayer
+        let emitterLayer = CAEmitterLayer()
+        
+        emitterLayer.position = self.view.center
+        emitterLayer.emitterSize = CGSize(width: 2, height: 2)
+        emitterLayer.renderMode = kCAEmitterLayerBackToFront
+        emitterLayer.emitterMode = kCAEmitterLayerOutline
+        emitterLayer.emitterShape = kCAEmitterLayerCircle
+        
+        emitterLayer.emitterCells = [emitterCell]
+        self.view.layer.addSublayer(emitterLayer)
+    }
+    
+    
+    
     
     
     @objc func touchBackgroundEvent(sender: UIGestureRecognizer) {
