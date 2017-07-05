@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3912A5941F0C84C500C819E1 /* CircleAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912A5931F0C84C500C819E1 /* CircleAnimateViewController.swift */; };
 		392132F51E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392132F41E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift */; };
 		39AE3D831E9B268F00A46CBD /* PlaneSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE3D821E9B268F00A46CBD /* PlaneSportViewController.swift */; };
 		39B1065E1E9732AC0000DC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1065D1E9732AC0000DC3F /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 		39B106911E9739200000DC3F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106901E9739200000DC3F /* HomeTableViewController.swift */; };
 		39B106DD1E977E9D0000DC3F /* ButtonMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106DC1E977E9D0000DC3F /* ButtonMoveViewController.swift */; };
 		39B106E01E9790B80000DC3F /* TurnAroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106DF1E9790B80000DC3F /* TurnAroundViewController.swift */; };
+		39C689701F0B69800062F715 /* VolumeBeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C6896F1F0B69800062F715 /* VolumeBeatViewController.swift */; };
 		39D065C11E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D065C01E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift */; };
 		39D065C31E9E1BEC00CCCD13 /* BlackHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D065C21E9E1BEC00CCCD13 /* BlackHoleView.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3912A5931F0C84C500C819E1 /* CircleAnimateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAnimateViewController.swift; sourceTree = "<group>"; };
 		392132F41E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostFireAnimationViewController.swift; sourceTree = "<group>"; };
 		39AE3D821E9B268F00A46CBD /* PlaneSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneSportViewController.swift; sourceTree = "<group>"; };
 		39B1065A1E9732AC0000DC3F /* SwiftSimpleAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSimpleAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +62,7 @@
 		39B106901E9739200000DC3F /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		39B106DC1E977E9D0000DC3F /* ButtonMoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMoveViewController.swift; sourceTree = "<group>"; };
 		39B106DF1E9790B80000DC3F /* TurnAroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnAroundViewController.swift; sourceTree = "<group>"; };
+		39C6896F1F0B69800062F715 /* VolumeBeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeBeatViewController.swift; sourceTree = "<group>"; };
 		39D065C01E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameAnimiationViewController.swift; sourceTree = "<group>"; };
 		39D065C21E9E1BEC00CCCD13 /* BlackHoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackHoleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +136,8 @@
 				39AE3D811E9B265000A46CBD /* PlaneSport */,
 				39D065BF1E9E0B2D00CCCD13 /* FrameAnimiation */,
 				392132F31E9F6C1800ED62E2 /* GhostFireAnimation */,
+				39C6896E1F0B68F10062F715 /* VolumeBeat */,
+				39C689711F0B7B250062F715 /* CircleAnimate */,
 				39B1065D1E9732AC0000DC3F /* AppDelegate.swift */,
 				39B106901E9739200000DC3F /* HomeTableViewController.swift */,
 				39B106661E9732AC0000DC3F /* Main.storyboard */,
@@ -175,6 +181,22 @@
 				39B106DF1E9790B80000DC3F /* TurnAroundViewController.swift */,
 			);
 			name = TurnAround;
+			sourceTree = "<group>";
+		};
+		39C6896E1F0B68F10062F715 /* VolumeBeat */ = {
+			isa = PBXGroup;
+			children = (
+				39C6896F1F0B69800062F715 /* VolumeBeatViewController.swift */,
+			);
+			name = VolumeBeat;
+			sourceTree = "<group>";
+		};
+		39C689711F0B7B250062F715 /* CircleAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				3912A5931F0C84C500C819E1 /* CircleAnimateViewController.swift */,
+			);
+			name = CircleAnimate;
 			sourceTree = "<group>";
 		};
 		39D065BF1E9E0B2D00CCCD13 /* FrameAnimiation */ = {
@@ -323,10 +345,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C689701F0B69800062F715 /* VolumeBeatViewController.swift in Sources */,
 				39B106911E9739200000DC3F /* HomeTableViewController.swift in Sources */,
 				39B106E01E9790B80000DC3F /* TurnAroundViewController.swift in Sources */,
 				39AE3D831E9B268F00A46CBD /* PlaneSportViewController.swift in Sources */,
 				39D065C11E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift in Sources */,
+				3912A5941F0C84C500C819E1 /* CircleAnimateViewController.swift in Sources */,
 				39B106611E9732AC0000DC3F /* SwiftSimpleAnimations.xcdatamodeld in Sources */,
 				39B1065E1E9732AC0000DC3F /* AppDelegate.swift in Sources */,
 				392132F51E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift in Sources */,
@@ -426,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -469,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -483,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EDA8EGULN6;
 				INFOPLIST_FILE = SwiftSimpleAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.SwiftSimpleAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EDA8EGULN6;
 				INFOPLIST_FILE = SwiftSimpleAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.SwiftSimpleAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";

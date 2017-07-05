@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pN2-Tb-PDE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pN2-Tb-PDE">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,6 +39,8 @@
                         <segue destination="1Zt-JX-YfM" kind="show" identifier="PlaneSportView" id="mPI-jy-1L1"/>
                         <segue destination="h0b-bQ-4ny" kind="push" identifier="FrameAnimiation" id="bSn-DT-fwU"/>
                         <segue destination="b4g-rf-fGA" kind="push" identifier="GhostFireAnimation" id="Ml7-pH-sf6"/>
+                        <segue destination="1XY-pG-695" kind="show" identifier="VolumeBeatView" id="0o2-zT-1RR"/>
+                        <segue destination="8Q4-Hx-RMV" kind="show" identifier="CircleAnimateView" id="3pG-lT-Vmf"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gm3-4v-dly" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -241,6 +243,61 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWa-25-Kxg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4098" y="-407"/>
+        </scene>
+        <!--Volume Beat View Controller-->
+        <scene sceneID="MBP-8s-pL7">
+            <objects>
+                <viewController storyboardIdentifier="VolumeBeatView" id="1XY-pG-695" customClass="VolumeBeatViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MxS-I8-8xW"/>
+                        <viewControllerLayoutGuide type="bottom" id="sIq-Wq-ZQz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oFF-Ex-wkz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tmt-qm-24j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NHB-Wx-Bk4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1207" y="331"/>
+        </scene>
+        <!--Circle Animate View Controller-->
+        <scene sceneID="mdN-d8-bRS">
+            <objects>
+                <viewController id="8Q4-Hx-RMV" customClass="CircleAnimateViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5hp-Oq-wjy"/>
+                        <viewControllerLayoutGuide type="bottom" id="31s-J0-IaR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="obm-c1-9K8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="H2T-uT-Jgp">
+                                <rect key="frame" x="14" y="425" width="347" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwA-a8-u1b">
+                                <rect key="frame" x="156" y="481" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="开始动画"/>
+                                <connections>
+                                    <action selector="beginAnimateBtnClick:" destination="8Q4-Hx-RMV" eventType="touchUpInside" id="KVk-pQ-85K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="beginAnimateBtn" destination="YwA-a8-u1b" id="bSC-L8-tSB"/>
+                        <outlet property="slider" destination="H2T-uT-Jgp" id="N7F-aV-PLh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="np6-nR-5xV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205.5999999999999" y="1001.649175412294"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IBM-EB-7CC">
