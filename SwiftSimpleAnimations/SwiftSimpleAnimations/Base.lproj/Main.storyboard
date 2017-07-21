@@ -41,6 +41,11 @@
                         <segue destination="b4g-rf-fGA" kind="push" identifier="GhostFireAnimation" id="Ml7-pH-sf6"/>
                         <segue destination="1XY-pG-695" kind="show" identifier="VolumeBeatView" id="0o2-zT-1RR"/>
                         <segue destination="8Q4-Hx-RMV" kind="show" identifier="CircleAnimateView" id="3pG-lT-Vmf"/>
+                        <segue destination="OOj-cV-e5r" kind="show" identifier="ImageTransformView" id="sHG-5j-YJm"/>
+                        <segue destination="mgO-OX-6Al" kind="show" identifier="GradientAniView" id="VxS-eI-g6q"/>
+                        <segue destination="mOK-a6-cNh" kind="show" identifier="IBTestView" id="N9y-XT-2Pl"/>
+                        <segue destination="rvA-m9-zh2" kind="show" identifier="ChartView" id="ZgC-nY-sDU"/>
+                        <segue destination="8i8-GF-oFE" kind="show" identifier="TransitionView" id="UAs-QS-nmt"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gm3-4v-dly" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -299,6 +304,206 @@
             </objects>
             <point key="canvasLocation" x="1205.5999999999999" y="1001.649175412294"/>
         </scene>
+        <!--Image Transform View Controller-->
+        <scene sceneID="8vm-YT-VhW">
+            <objects>
+                <viewController id="OOj-cV-e5r" customClass="ImageTransformViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I2L-SF-PG9"/>
+                        <viewControllerLayoutGuide type="bottom" id="xf1-zp-9sh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aUy-a6-q8q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yLn-ED-Jwb">
+                                <rect key="frame" x="67" y="163" width="236" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="showImageView" destination="yLn-ED-Jwb" id="7w9-Yi-CHq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aie-BF-5eF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1207.2" y="1673.6131934032985"/>
+        </scene>
+        <!--Gradient Ani View Controller-->
+        <scene sceneID="g0E-Jw-qGa">
+            <objects>
+                <viewController id="mgO-OX-6Al" customClass="GradientAniViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KbM-AV-egK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wxg-k1-b7p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zkR-ah-gB4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lock_bg" translatesAutoresizingMaskIntoConstraints="NO" id="luK-p5-57j">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12:19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4J-RT-DJE">
+                                <rect key="frame" x="61" y="80" width="253" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="0.89755458047945202" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wednesday, June 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2y-F1-Ha1">
+                                <rect key="frame" x="61" y="152" width="253" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="0.89755458047945202" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&gt; slide to you iPhone, Ok" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8b-NB-igj">
+                                <rect key="frame" x="61" y="578" width="253" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="showLockLabel" destination="d8b-NB-igj" id="jbM-gp-f1i"/>
+                        <outlet property="viewBgImageView" destination="luK-p5-57j" id="Mfb-fP-78x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qxh-hf-t9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205.5999999999999" y="2350.9745127436286"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="khw-cb-1X8">
+            <objects>
+                <viewController id="mOK-a6-cNh" customClass="IBTestViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5eb-Vt-UAT"/>
+                        <viewControllerLayoutGuide type="bottom" id="FS5-t5-27N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IEe-c5-m8G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L0a-g5-ajz" customClass="CalculatorView">
+                                <rect key="frame" x="33" y="115" width="309" height="436"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8LR-KS-jBf">
+                                        <rect key="frame" x="0.0" y="47" width="309" height="389"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calculate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMC-JV-jPf">
+                                        <rect key="frame" x="8" y="12" width="293" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EXi-q0-8eg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205.5999999999999" y="3028.3358320839584"/>
+        </scene>
+        <!--Chart View Controller-->
+        <scene sceneID="HRX-vL-5FR">
+            <objects>
+                <viewController id="rvA-m9-zh2" customClass="ChartViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oLm-0o-rsf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nsk-ny-DVj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Oq7-n1-M25">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WIc-of-vpN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205.5999999999999" y="3713.7931034482763"/>
+        </scene>
+        <!--Transition View Controller-->
+        <scene sceneID="qKf-d0-Dba">
+            <objects>
+                <viewController id="8i8-GF-oFE" customClass="TransitionViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wx1-oa-20c"/>
+                        <viewControllerLayoutGuide type="bottom" id="BlM-cO-JQ3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="19Q-a8-PMU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fire" translatesAutoresizingMaskIntoConstraints="NO" id="9OF-mJ-DrP">
+                                <rect key="frame" x="0.0" y="72" width="375" height="295"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmZ-aj-mej">
+                                <rect key="frame" x="153" y="384" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Animation"/>
+                                <connections>
+                                    <action selector="animationBtnClick:" destination="8i8-GF-oFE" eventType="touchUpInside" id="kyU-rZ-Crp"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VWn-KE-beo">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="dataPickView" destination="VWn-KE-beo" id="Mbp-my-bQL"/>
+                        <outlet property="showImageView" destination="9OF-mJ-DrP" id="IOq-nM-Ccg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P1C-X8-6B1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205.5999999999999" y="4393.8530734632686"/>
+        </scene>
+        <!--Transition New View Controller-->
+        <scene sceneID="CaT-ml-Ozm">
+            <objects>
+                <viewController storyboardIdentifier="TransitionNewView" id="g82-Vl-laz" customClass="TransitionNewViewController" customModule="SwiftSimpleAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1KW-tF-qb5"/>
+                        <viewControllerLayoutGuide type="bottom" id="BfY-0V-xPI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tpe-JJ-fpG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.98823529409999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DY8-qE-pyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1925.5999999999999" y="4393.8530734632686"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="IBM-EB-7CC">
             <objects>
@@ -319,6 +524,8 @@
     <resources>
         <image name="002" width="72" height="83"/>
         <image name="004" width="716" height="716"/>
+        <image name="fire" width="600" height="450"/>
+        <image name="lock_bg" width="1080" height="1920"/>
         <image name="plane" width="39" height="16"/>
     </resources>
 </document>

@@ -24,7 +24,7 @@ class HomeTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         // set DataSource
-        dataSource = ["buttonMoveView", "TurnAroundView", "PlaneSportView", "FrameAnimiation", "GhostFireAnimation", "VolumeBeatView", "CircleAnimateView"]
+        dataSource = ["buttonMoveView", "TurnAroundView", "PlaneSportView", "FrameAnimiation", "GhostFireAnimation", "VolumeBeatView", "CircleAnimateView", "ImageTransformView", "GradientAniView", "IBTestView", "ChartView", "TransitionView"]
         
     }
 

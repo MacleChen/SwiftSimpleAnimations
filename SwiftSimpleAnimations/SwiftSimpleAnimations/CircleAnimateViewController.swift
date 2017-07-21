@@ -24,7 +24,7 @@ class CircleAnimateViewController: UIViewController, CAAnimationDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        self.view.backgroundColor = UIColor.lightGray
         
         
         
@@ -56,11 +56,19 @@ class CircleAnimateViewController: UIViewController, CAAnimationDelegate {
         let startAngle: CGFloat = -180.0/180.0 * CGFloat(M_PI)
         let endAngle: CGFloat = -(90.01*matrix)/180.0 * CGFloat(M_PI)
         let circlePath = UIBezierPath(arcCenter: CGPoint(x: self.view.bounds.size.width/2, y: self.view.bounds.size.height - 120*3), radius: 120/2-2, startAngle:startAngle, endAngle: endAngle, clockwise: true)
+//        let circlePath = UIBezierPath(ovalIn: CGRect(x: self.view.bounds.size.width/2, y: self.view.bounds.size.height - 120*3, width: 60, height: 100))
+//        let circlePath = UIBezierPath(rect: CGRect(x: self.view.bounds.size.width/2, y: self.view.bounds.size.height - 120*3, width: 60, height: 100))
+//        circlePath.addArc(withCenter: circlePath.currentPoint, radius: 10.0, startAngle:-45.0/180.0 * CGFloat(M_PI) + endAngle, endAngle: -90.01/180.0 * CGFloat(M_PI) + endAngle, clockwise: false)
+        
+        circlePath.addLine(to: CGPoint(x: circlePath.currentPoint.x + 5.0, y: circlePath.currentPoint.y - 8.0))
+        circlePath.addLine(to: CGPoint(x: circlePath.currentPoint.x-5, y: circlePath.currentPoint.y+5))
         circle.path = circlePath.cgPath
         circle.lineCap = kCALineCapRound
         circle.fillColor = UIColor.clear.cgColor
         circle.strokeColor = strokeColor.cgColor
         circle.lineWidth = lineWidth as! CGFloat
+        circle.borderColor = UIColor.white.cgColor
+        circle.borderWidth = lineWidth as! CGFloat
         self.view.layer.addSublayer(circle)
         
         

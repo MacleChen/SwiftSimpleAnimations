@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3912A5941F0C84C500C819E1 /* CircleAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912A5931F0C84C500C819E1 /* CircleAnimateViewController.swift */; };
 		392132F51E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392132F41E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift */; };
+		392223F91F1480A6001AE375 /* ImageTransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392223F81F1480A6001AE375 /* ImageTransformViewController.swift */; };
+		396139361F1EF44000540E18 /* GradientAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396139351F1EF44000540E18 /* GradientAniViewController.swift */; };
+		396139381F1F0B1D00540E18 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396139371F1F0B1D00540E18 /* GradientLabel.swift */; };
+		3961393D1F1F3C3400540E18 /* IBTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961393C1F1F3C3400540E18 /* IBTestViewController.swift */; };
 		39AE3D831E9B268F00A46CBD /* PlaneSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE3D821E9B268F00A46CBD /* PlaneSportViewController.swift */; };
 		39B1065E1E9732AC0000DC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1065D1E9732AC0000DC3F /* AppDelegate.swift */; };
 		39B106611E9732AC0000DC3F /* SwiftSimpleAnimations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39B1065F1E9732AC0000DC3F /* SwiftSimpleAnimations.xcdatamodeld */; };
@@ -20,9 +24,18 @@
 		39B106911E9739200000DC3F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106901E9739200000DC3F /* HomeTableViewController.swift */; };
 		39B106DD1E977E9D0000DC3F /* ButtonMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106DC1E977E9D0000DC3F /* ButtonMoveViewController.swift */; };
 		39B106E01E9790B80000DC3F /* TurnAroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B106DF1E9790B80000DC3F /* TurnAroundViewController.swift */; };
+		39BE9C3B1F205FFD004FE6AB /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE9C3A1F205FFD004FE6AB /* CalculatorView.swift */; };
+		39BE9C3D1F20805F004FE6AB /* MytestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE9C3C1F20805F004FE6AB /* MytestView.swift */; };
+		39BE9C3F1F20806D004FE6AB /* MytestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BE9C3E1F20806D004FE6AB /* MytestView.xib */; };
 		39C689701F0B69800062F715 /* VolumeBeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C6896F1F0B69800062F715 /* VolumeBeatViewController.swift */; };
 		39D065C11E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D065C01E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift */; };
 		39D065C31E9E1BEC00CCCD13 /* BlackHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D065C21E9E1BEC00CCCD13 /* BlackHoleView.swift */; };
+		39F6B6661F219DA2009CD3B7 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B6651F219DA2009CD3B7 /* ChartViewController.swift */; };
+		39F6B6681F219E20009CD3B7 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B6671F219E20009CD3B7 /* LineChartView.swift */; };
+		39F6B66A1F21B339009CD3B7 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B6691F21B339009CD3B7 /* BarChartView.swift */; };
+		39F6B66D1F21D1B6009CD3B7 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B66C1F21D1B6009CD3B7 /* TransitionViewController.swift */; };
+		39F6B66F1F21DAA5009CD3B7 /* TransitionAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B66E1F21DAA5009CD3B7 /* TransitionAnim.swift */; };
+		39F6B6711F21DDE6009CD3B7 /* TransitionNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B6701F21DDE6009CD3B7 /* TransitionNewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,10 @@
 /* Begin PBXFileReference section */
 		3912A5931F0C84C500C819E1 /* CircleAnimateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAnimateViewController.swift; sourceTree = "<group>"; };
 		392132F41E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostFireAnimationViewController.swift; sourceTree = "<group>"; };
+		392223F81F1480A6001AE375 /* ImageTransformViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransformViewController.swift; sourceTree = "<group>"; };
+		396139351F1EF44000540E18 /* GradientAniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientAniViewController.swift; sourceTree = "<group>"; };
+		396139371F1F0B1D00540E18 /* GradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
+		3961393C1F1F3C3400540E18 /* IBTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBTestViewController.swift; sourceTree = "<group>"; };
 		39AE3D821E9B268F00A46CBD /* PlaneSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneSportViewController.swift; sourceTree = "<group>"; };
 		39B1065A1E9732AC0000DC3F /* SwiftSimpleAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSimpleAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B1065D1E9732AC0000DC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,9 +79,18 @@
 		39B106901E9739200000DC3F /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		39B106DC1E977E9D0000DC3F /* ButtonMoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMoveViewController.swift; sourceTree = "<group>"; };
 		39B106DF1E9790B80000DC3F /* TurnAroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnAroundViewController.swift; sourceTree = "<group>"; };
+		39BE9C3A1F205FFD004FE6AB /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		39BE9C3C1F20805F004FE6AB /* MytestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MytestView.swift; sourceTree = "<group>"; };
+		39BE9C3E1F20806D004FE6AB /* MytestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MytestView.xib; sourceTree = "<group>"; };
 		39C6896F1F0B69800062F715 /* VolumeBeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeBeatViewController.swift; sourceTree = "<group>"; };
 		39D065C01E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameAnimiationViewController.swift; sourceTree = "<group>"; };
 		39D065C21E9E1BEC00CCCD13 /* BlackHoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackHoleView.swift; sourceTree = "<group>"; };
+		39F6B6651F219DA2009CD3B7 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		39F6B6671F219E20009CD3B7 /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		39F6B6691F21B339009CD3B7 /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		39F6B66C1F21D1B6009CD3B7 /* TransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		39F6B66E1F21DAA5009CD3B7 /* TransitionAnim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnim.swift; sourceTree = "<group>"; };
+		39F6B6701F21DDE6009CD3B7 /* TransitionNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionNewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +124,34 @@
 				392132F41E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift */,
 			);
 			name = GhostFireAnimation;
+			sourceTree = "<group>";
+		};
+		392223F71F14806F001AE375 /* 3DTransform */ = {
+			isa = PBXGroup;
+			children = (
+				392223F81F1480A6001AE375 /* ImageTransformViewController.swift */,
+			);
+			name = 3DTransform;
+			sourceTree = "<group>";
+		};
+		396139341F1EF41300540E18 /* GradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				396139351F1EF44000540E18 /* GradientAniViewController.swift */,
+				396139371F1F0B1D00540E18 /* GradientLabel.swift */,
+			);
+			name = GradientLayer;
+			sourceTree = "<group>";
+		};
+		396139391F1F3B5700540E18 /* IBInspectable */ = {
+			isa = PBXGroup;
+			children = (
+				3961393C1F1F3C3400540E18 /* IBTestViewController.swift */,
+				39BE9C3A1F205FFD004FE6AB /* CalculatorView.swift */,
+				39BE9C3C1F20805F004FE6AB /* MytestView.swift */,
+				39BE9C3E1F20806D004FE6AB /* MytestView.xib */,
+			);
+			name = IBInspectable;
 			sourceTree = "<group>";
 		};
 		39AE3D811E9B265000A46CBD /* PlaneSport */ = {
@@ -138,6 +192,11 @@
 				392132F31E9F6C1800ED62E2 /* GhostFireAnimation */,
 				39C6896E1F0B68F10062F715 /* VolumeBeat */,
 				39C689711F0B7B250062F715 /* CircleAnimate */,
+				392223F71F14806F001AE375 /* 3DTransform */,
+				396139341F1EF41300540E18 /* GradientLayer */,
+				396139391F1F3B5700540E18 /* IBInspectable */,
+				39F6B6641F219D70009CD3B7 /* ChartLineView */,
+				39F6B66B1F21D183009CD3B7 /* TransitionAnimation */,
 				39B1065D1E9732AC0000DC3F /* AppDelegate.swift */,
 				39B106901E9739200000DC3F /* HomeTableViewController.swift */,
 				39B106661E9732AC0000DC3F /* Main.storyboard */,
@@ -206,6 +265,26 @@
 				39D065C21E9E1BEC00CCCD13 /* BlackHoleView.swift */,
 			);
 			name = FrameAnimiation;
+			sourceTree = "<group>";
+		};
+		39F6B6641F219D70009CD3B7 /* ChartLineView */ = {
+			isa = PBXGroup;
+			children = (
+				39F6B6651F219DA2009CD3B7 /* ChartViewController.swift */,
+				39F6B6671F219E20009CD3B7 /* LineChartView.swift */,
+				39F6B6691F21B339009CD3B7 /* BarChartView.swift */,
+			);
+			name = ChartLineView;
+			sourceTree = "<group>";
+		};
+		39F6B66B1F21D183009CD3B7 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				39F6B66C1F21D1B6009CD3B7 /* TransitionViewController.swift */,
+				39F6B66E1F21DAA5009CD3B7 /* TransitionAnim.swift */,
+				39F6B6701F21DDE6009CD3B7 /* TransitionNewViewController.swift */,
+			);
+			name = TransitionAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39BE9C3F1F20806D004FE6AB /* MytestView.xib in Resources */,
 				39B1066D1E9732AC0000DC3F /* LaunchScreen.storyboard in Resources */,
 				39B1066A1E9732AC0000DC3F /* Assets.xcassets in Resources */,
 				39B106681E9732AC0000DC3F /* Main.storyboard in Resources */,
@@ -346,16 +426,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C689701F0B69800062F715 /* VolumeBeatViewController.swift in Sources */,
+				396139361F1EF44000540E18 /* GradientAniViewController.swift in Sources */,
 				39B106911E9739200000DC3F /* HomeTableViewController.swift in Sources */,
 				39B106E01E9790B80000DC3F /* TurnAroundViewController.swift in Sources */,
+				39BE9C3B1F205FFD004FE6AB /* CalculatorView.swift in Sources */,
+				39F6B6661F219DA2009CD3B7 /* ChartViewController.swift in Sources */,
 				39AE3D831E9B268F00A46CBD /* PlaneSportViewController.swift in Sources */,
+				39F6B66A1F21B339009CD3B7 /* BarChartView.swift in Sources */,
 				39D065C11E9E0B7D00CCCD13 /* FrameAnimiationViewController.swift in Sources */,
 				3912A5941F0C84C500C819E1 /* CircleAnimateViewController.swift in Sources */,
 				39B106611E9732AC0000DC3F /* SwiftSimpleAnimations.xcdatamodeld in Sources */,
+				39F6B66F1F21DAA5009CD3B7 /* TransitionAnim.swift in Sources */,
+				392223F91F1480A6001AE375 /* ImageTransformViewController.swift in Sources */,
 				39B1065E1E9732AC0000DC3F /* AppDelegate.swift in Sources */,
+				39BE9C3D1F20805F004FE6AB /* MytestView.swift in Sources */,
 				392132F51E9F6C3A00ED62E2 /* GhostFireAnimationViewController.swift in Sources */,
+				39F6B6711F21DDE6009CD3B7 /* TransitionNewViewController.swift in Sources */,
+				39F6B6681F219E20009CD3B7 /* LineChartView.swift in Sources */,
 				39D065C31E9E1BEC00CCCD13 /* BlackHoleView.swift in Sources */,
+				396139381F1F0B1D00540E18 /* GradientLabel.swift in Sources */,
 				39B106DD1E977E9D0000DC3F /* ButtonMoveViewController.swift in Sources */,
+				39F6B66D1F21D1B6009CD3B7 /* TransitionViewController.swift in Sources */,
+				3961393D1F1F3C3400540E18 /* IBTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -493,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -507,7 +599,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EDA8EGULN6;
 				INFOPLIST_FILE = SwiftSimpleAnimations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.SwiftSimpleAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,7 +613,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EDA8EGULN6;
 				INFOPLIST_FILE = SwiftSimpleAnimations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.SwiftSimpleAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
